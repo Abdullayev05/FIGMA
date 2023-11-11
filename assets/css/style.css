@@ -20,9 +20,20 @@
     padding-top: 20px;
     display: flex;
 }
+.insta {
+    width: 18px;
+    height: 18px;
+}
+.ppp {
+    padding-left: 550px;
+    width: 160px;
+    left: 550px;
+    display: flex;
+    gap: 20px;
+}
 .words {
     display: flex;
-    gap: 30px;
+    gap: 25px;
     align-items: center;
     justify-content: center;
     border-radius: 7px;
@@ -70,3 +81,525 @@
     gap: 50px;
     padding-top: 40px;
 }
+.letter {
+    height: 18px;
+    width: 18px;
+}
+.melumat {
+    color: #FFFFFF;
+    padding-left: 15px;
+}
+.white_frame {
+    width: 570px;
+    height: 432px;
+    margin-top: 200px;
+    background-color: white;
+}
+.border {
+    display: flex;
+}
+.phone {
+    padding-left: 100px;
+}
+.great {
+    font-size: 48px;
+    font-weight: 700;
+    color: #5956E9;
+    padding-left: 60px;
+    padding-top: 50px;
+}
+.amet {
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 60px;
+    padding-top: 15px;
+    width: 540px;
+}
+.download_app_now {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 60px;
+    padding-top: 80px;
+}
+.google_play {
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.ppppp {
+    width: 646px;
+    height: 725px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.about_our_app {
+    margin-top: 150px;
+    text-align: center;
+}
+.about {
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first_lorem {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 50px;
+    width: 600px;
+    margin-left: 280px;
+}
+.phone_two {
+    width: 400px;
+    height: 620px;
+    margin-top: 80px;
+}
+.creative_design {
+    font-size: 20px;
+    font-weight: 600; 
+}
+.second_lorem {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.tel_about {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+.all_two {
+    background-color:#f7f3f3;
+    border-radius: 10px;
+    width: 600px;
+    height: 150px;
+    margin-top: 80px;
+    padding: 30px;
+}
+.photo_three_section {
+    height: 1880px;
+    background-image: url("../imgs/pho.png");
+}
+.app_feat {
+    margin-top: 150px;
+    padding-top: 150px;
+    text-align: center;
+}
+.app_features {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lorem_three_th {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    padding-top: 50px;
+    width: 600px;
+    margin-left: 280px;
+}
+.chat_full_free {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full {
+    text-align: center;
+    padding-top: 20px;
+}
+.chat {
+    margin-top: 80px;
+}
+.full_free_chat {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFF;
+    padding-top: 20px2;
+}
+.lorem_four {
+    padding-top: 20px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.three_phone {
+    width: 375px;
+    height: 812px;
+    border-radius: 40px;
+    margin: 200px auto;
+    margin-top: 100px;
+    background-image: url("../imgs/three_th_phone.png");
+}
+.unlimmiter_features {
+    font-size: 25px;
+    font-weight: 600;
+}
+.pppppppp {
+    margin-top: 200px;
+    margin-left: 250px;
+}
+.unlimit {
+    margin-top: 30px;
+}
+.lorem_five {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    padding-top: 20px;
+    width: 300px;
+}
+.icon_and_words {
+    height: 50px;
+}
+.wrds {
+    margin-top: 180px;
+}
+.man_icon {
+    text-align: center;
+}
+.support {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+    padding-top: 20px;
+    text-align: center;
+}
+.supp {
+    padding-top: 20px;
+}
+.lorem_six {
+    width: 319px;
+    font-size: 16px;
+    margin: 0 auto;
+    font-weight: 400;
+    padding-top: 20px;
+    color: #FFF;
+}
+.checkout {
+    font-size: 32px;
+    font-weight: 700;
+}
+.lorem_seven {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 40px;
+}
+.checkout_lorem {
+    text-align: center;
+    margin-top: 150px;
+}
+.five_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.one_img {
+    width: 246px;
+    height: 532px;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+}
+.two_img{
+    width: 246px;
+    height: 532px;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+}
+.three_img{
+    width: 319px;
+    height: 622px;
+}
+.four_img{
+    width: 246px;
+    height: 532px;
+}
+.five_img{
+    width: 246px;
+    height: 532px;
+    border-radius: 30px;
+}
+.five_noqte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.down {
+    margin-top: 200px;
+}
+.download_app {
+    font-size: 32px;
+    font-weight: 700;
+}
+.lorem_eight {
+    width: 570px;
+    height: 87px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.play_store {
+    margin-top: 30px;
+}
+.kub_three {
+    margin-top: 80px;
+    width: 170px;
+    height: 176px;
+    border-radius: 10px;
+    background-color: #5851EA;
+}
+.save {
+    text-align: center;
+    padding-top: 40px;
+}
+.reqem {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.download_kub {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.kub_three_th {
+    display: flex;
+    gap: 50px;
+}
+.two_images {
+    width: 516px;
+    height: 480px;
+    
+}
+.two_phone {
+    width: 516px;
+    height: 480px;
+}
+.middle {
+    height: 477px;
+    margin-top: 100px;
+    background-image: url("../imgs/pho.png");
+}
+.how_lorem {
+    text-align: center;
+    padding-top: 150px;
+}
+.how_to_use {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFF;
+}
+.lorem_nine {
+    font-size: 16px;
+    font-weight: 400;
+    width: 601px;
+    height: 70px;
+    padding-top: 50px;
+    margin: 0 auto;
+    color: #FFF;
+}
+.table_computer {
+    width: 770px;
+    height: 319px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+.our_lorem {
+    text-align: center;
+    padding-top: 150px;
+}
+.our_reative_team {
+    font-size: 31.25px;
+    font-weight: 700;
+}
+.lorem_teen {
+    width: 601px;
+    height: 70px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.three_secim {
+    width: 370px;
+    height: 580px;
+    background-color: white;
+    border: 5px solid rgb(247, 243, 243);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.girl_photo {
+    border-radius: 50%;
+    margin-left: 85px;
+    margin-top: 50px;
+}
+.carla_press {
+    font-size: 32px;
+    font-weight: 700;
+}
+.midd {
+    margin-top: 100px;
+}
+.app_developers{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    color: #6C6C72;
+}
+.lorem_eleven {
+    width: 326px;
+    height: 61px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.carla_app_lorem {
+    text-align: center;
+    padding-top: 100px;
+}
+.social {
+    width: 300px;
+    padding-top: 15px;
+}
+.butun {
+    display: flex;
+    gap: 30px;
+}
+.our_recent_lorem {
+    text-align: center;
+    margin-top: 150px;
+}
+.our_recent_blog {
+    font-size: 32px;
+    font-weight: 700;
+}
+.lorem_twelve {
+   width: 600px;
+   font-size: 16px;
+   font-weight: 400;
+   margin: 0 auto;
+   padding-top: 30px;
+}
+.snap_insta_pho {
+    width: 370px;
+    height: 500px;
+    margin-top: 70px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(239, 245, 239);
+}
+.snapchat {
+    width: 370px;
+    height: 228px;
+    border-radius: 10px 10px 0px 0px;
+}
+.the_snap_lorem {
+    margin-top: 50px;
+    padding: 25px;
+}
+.the_snap {
+    font-size: 20px;
+    font-weight: 600;
+}
+.lorem_thirdteen {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.read_more {
+    color: #5851EA;
+    font-size: 20px;
+    font-weight: 600;
+}
+.read {
+    padding-top: 30px;
+    text-decoration: underline;
+}
+.snap_insta {
+    display: flex;
+    gap: 30px;
+}
+.footer_color {
+    background-color: rgb(32, 32, 32);
+    height: 545px;
+    margin-top: 250px;
+}
+.logo_quick_news {
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 200px;
+    gap: 200px;
+}
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+}
+.quick_link {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.news_letter {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 80px;
+    padding-top: 60px;
+}
+.lrm {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+.footer_about {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+}
+.four_link {
+    padding-top: 30px;
+}
+.four {
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+}
+.subscribe {
+    font-size: 16px;
+    font-weight: 400;
+    width: 300px;
+    padding-top: 30px;
+}
+.email {
+    width: 369px;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+.email_your {
+    padding-top: 30px;
+}
+/* .email_address {
+    background-color: #5851EA;
+    height: 50px;
+    width: 50px;
+} */
