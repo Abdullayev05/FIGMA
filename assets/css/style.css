@@ -19,6 +19,8 @@
 .header_words {
     padding-top: 20px;
     display: flex;
+    position: fixed;
+    margin-top: 50px;
 }
 .insta {
     width: 18px;
