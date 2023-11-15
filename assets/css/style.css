@@ -17,21 +17,19 @@
     background-image: url("../imgs/background_image_one.png");
 }
 .header_words {
-    padding-top: 20px;
     display: flex;
     position: fixed;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .insta {
     width: 18px;
     height: 18px;
 }
-.ppp {
+.insta_logo {
     padding-left: 550px;
     width: 160px;
-    left: 550px;
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 .words {
     display: flex;
@@ -45,7 +43,7 @@
     margin: 0 auto;
     background-color: #FFFFFF;
     width: 1170px;
-    padding-left: 30px;
+    padding-left:60px;
 }
 .home {
     color: #5956E9;
@@ -76,7 +74,47 @@
     color: #FFFFFF;
     background-color: #5956E9;
     border-radius: 7px;
-    margin-left: 35px;
+    margin-left: 60px;
+}
+
+@media screen and (max-width:1200px) {
+   .header_words ul li a {
+    font-size: 17px;
+   }
+    .header_words ul {
+       width: calc((100% - 180px) / 2);
+    }
+    .appolly {
+        width: 180px;
+        height: 80px;
+    }    
+}
+@media screen and (max-width:1024px) {
+    .header_words ul li a {
+        font-size: 14px;
+    }
+    .header_words ul {
+       width: calc((100% - 160px) / 2);
+    }
+    .appolly {
+        width: 140px;
+        height: 70px;
+    }    
+    .header_words button {
+        width: 90px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header-words ul {
+        display: none;
+    }
+}
+
+
+.header_top {
+    position: fixed;
 }
 .info { 
     display: flex;
@@ -99,6 +137,7 @@
 }
 .border {
     display: flex;
+    padding-top: 100px;
 }
 .phone {
     padding-left: 100px;
@@ -118,7 +157,7 @@
     width: 540px;
 }
 .download_app_now {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     padding-left: 60px;
     padding-top: 80px;
@@ -244,6 +283,7 @@
     margin-left: 250px;
 }
 .unlimit {
+    color: #FFFFFF;
     margin-top: 30px;
 }
 .lorem_five {
