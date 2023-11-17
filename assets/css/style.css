@@ -19,17 +19,19 @@
 .header_words {
     display: flex;
     position: fixed;
-    margin-top: 70px;
+    margin-top: 80px;
 }
 .insta {
     width: 18px;
     height: 18px;
 }
+.insta_link {
+    display: flex;
+    gap: 30px;
+}
 .insta_logo {
     padding-left: 550px;
     width: 160px;
-    display: flex;
-    gap: 30px;
 }
 .words {
     display: flex;
@@ -57,7 +59,7 @@
     margin-left: 100px;
     border-radius: 7px;
     background-color: white;
-    margin-bottom: 4px;
+    margin-bottom: 7px;
 }
 .appolly_img {
     width: 167px;
@@ -89,6 +91,7 @@
         height: 80px;
     }    
 }
+
 @media screen and (max-width:1024px) {
     .header_words ul li a {
         font-size: 14px;
@@ -103,6 +106,14 @@
     .header_words button {
         width: 90px;
         font-size: 14px;
+    }
+    .words {
+        font-size: 14px;
+    }
+    .appolly_img {
+        width: 167px;
+        height: 28px;
+        margin-top: 30px;
     }
 }
 
@@ -128,6 +139,11 @@
 .melumat {
     color: #FFFFFF;
     padding-left: 15px;
+}
+.border_frame {
+    width: 570px;
+    height: 535px;
+    border: 18px solid #7572FF;
 }
 .white_frame {
     width: 570px;
@@ -269,12 +285,13 @@
 .three_phone {
     width: 375px;
     height: 812px;
-    border-radius: 40px;
     margin: 200px auto;
     margin-top: 100px;
-    background-image: url("../imgs/three_th_phone.png");
 }
-.unlimmiter_features {
+.third_phone {
+    border-radius: 40px;
+}
+.unlimiter_features {
     font-size: 25px;
     font-weight: 600;
 }
@@ -344,12 +361,10 @@
 .one_img {
     width: 246px;
     height: 532px;
-    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
 }
 .two_img{
     width: 246px;
     height: 532px;
-    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
 }
 .three_img{
     width: 319px;
