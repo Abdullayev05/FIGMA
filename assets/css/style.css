@@ -335,6 +335,7 @@ header {
     justify-content: center;
 }
 .pho_tel {
+    border-radius: 50px;
     margin: 0 auto;
 }
 #fields_center {
