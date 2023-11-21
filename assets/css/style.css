@@ -114,95 +114,6 @@ header {
     text-decoration: underline;
     color: #5851EA;
 }
-@media screen and (max-width:1200px) {
-    #header_bottom ul li a {
-        font-size: 17px;
-    }
-    #logo {
-        width: 180px;
-        height: 80px;
-    }
-    .field_column {
-        width: 32%;
-    }
-    .field_column .field {
-        width: 100%;
-    }
-    .great {
-        font-size: 32px;
-        font-weight: 700;
-        padding-left: 60px;
-        padding-top: 50px;
-    }
-    .amet {
-        font-size: 16px;
-        font-weight: 400;
-        padding-left: 60px;
-        padding-top: 15px;
-        width: 540px;
-    }
-}
-@media screen and (max-width:1024px) {
-    #header_bottom ul li a {
-        font-size: 14px;
-    }
-    #header_bottom ul {
-        width: calc((100% - 160px) / 2);
-    }
-    #logo {
-        width: 140px;
-        height: 80px;
-    }
-    #header_bottom ul button {
-        width: 100px;
-        font-size: 15px; 
-    }
-    .field h5 {
-        font-size: 20px;
-        line-height: 30px;
-        margin: 22px 0 18px 0;
-    }
-    .field p {
-        font-size: 16px;
-        line-height: 24px;
-    }
-    .white_frame {
-        width: 356px;
-        height: 318px;
-        margin-top: 200px;
-        position: relative;
-    }
-    .great {
-        font-size: 32px;
-        font-weight: 700;
-        padding-left: 60px;
-        padding-top: 50px;
-    }
-    .amet {
-        font-size: 16px;
-        font-weight: 400;
-        padding-left: 60px;
-        padding-top: 15px;
-        width: 540px;
-    }
-}
-@media screen and (max-width:768px) {
-    #header_bottom ul {
-        display: none;
-    }
-    .white_frame {
-        width: 356px;
-        height: 318px;
-        margin-top: 200px;
-        position: relative;
-    }
-    .great {
-        font-size: 32px;
-        font-weight: 700;
-        padding-left: 60px;
-        padding-top: 50px;
-    }
-}
 .background_img {
     height: 1024px;
     background-image: url("../imgs/background_image_one.png");
@@ -240,7 +151,10 @@ header {
     padding-top: 100px;
 }
 .phone {
-    padding-left: 100px;
+    width: 646px;
+    height: 725px;
+    margin-top: 100px;
+    margin-left: 200px;
 }
 .great {
     font-size: 48px;
@@ -266,12 +180,6 @@ header {
     padding-left: 60px;
     padding-top: 20px;
 }
-.ppppp {
-    width: 646px;
-    height: 725px;
-    margin-top: 100px;
-    margin-left: 100px;
-}
 .about_our_app {
     margin-top: 150px;
     text-align: center;
@@ -288,6 +196,7 @@ header {
     font-weight: 400;
     padding-top: 50px;
     width: 600px;
+    line-height: 20px;
     margin-left: 280px;
 }
 .phone_two {
@@ -402,6 +311,7 @@ header {
     font-weight: 400;
     margin: 0 auto;
     width: 600px;
+    line-height: 25px;
     margin-top: 40px;
 }
 .checkout_lorem {
@@ -426,14 +336,6 @@ header {
     width: 319px;
     height: 622px;
 }
-.four a i {
-    color: white;
-}
-.four i {
-    width: 24px;
-    height: 24px;
-    font-size: 20px;
-}
 .four_img{
     width: 246px;
     height: 532px;
@@ -442,6 +344,14 @@ header {
     width: 246px;
     height: 532px;
     border-radius: 30px;
+}
+.four a i {
+    color: white;
+}
+.four i {
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
 }
 .five_noqte {
     display: flex;
@@ -477,6 +387,11 @@ header {
     text-align: center;
     padding-top: 40px;
 }
+.save i {
+    color: white;
+    width: 18px;
+    height: 18px;
+}
 .reqem {
     font-size: 25px;
     font-weight: 600;
@@ -502,12 +417,15 @@ header {
 .two_images {
     width: 516px;
     height: 480px;
-    
 }
-.two_phone {
+.kubs {
+    display: flex;
+    gap: 30px;
+}
+/* .two_phone {
     width: 516px;
     height: 480px;
-}
+} */
 .middle {
     height: 477px;
     margin-top: 100px;
@@ -725,4 +643,293 @@ header {
     height: 49px;
     width: 50px;
     border-radius: 0 4px 4px 0;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+}
+@media screen and (max-width:1200px) {
+    #header_bottom ul li a {
+        font-size: 17px;
+    }
+    #logo {
+        width: 180px;
+        height: 80px;
+    }
+    .field_column {
+        width: 32%;
+    }
+    .field_column .field {
+        width: 100%;
+    }
+    .great {
+        font-size: 32px;
+        font-weight: 700;
+        padding-left: 60px;
+        padding-top: 50px;
+    }
+    .amet {
+        font-size: 16px;
+        font-weight: 400;
+        padding-left: 60px;
+        padding-top: 15px;
+        width: 540px;
+    }
+    .border .phone {
+        width: 328px;
+        height: 423px;
+        padding-top: 100px;
+    }
+}
+@media screen and (max-width:1024px) {
+    #header_bottom ul li a {
+        font-size: 14px;
+    }
+    #header_bottom ul {
+        width: calc((100% - 160px) / 2);
+    }
+    #logo {
+        width: 140px;
+        height: 80px;
+    }
+    #header_bottom ul button {
+        width: 100px;
+        font-size: 15px; 
+    }
+    .field h5 {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 22px 0 18px 0;
+    }
+    .field p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .border .amet {
+        font-size: 16px;
+        font-weight: 400;
+        padding-left: 60px;
+        padding-top: 15px;
+        width: 450px;
+    }
+    .border .great {
+        font-size: 38px;
+        font-weight: 700;
+        padding-left: 60px;
+        padding-top: 50px;
+    }
+    .border .white_frame_all {
+        font-size: 32px;
+        font-weight: 700;
+        padding-left: 30px;
+        padding-top: 50px;    
+    }
+    .border .white_frame {
+        width: 500px;
+        height: 350px;
+        position: relative;
+    }
+    .border .ppppp {
+        width: 250px;
+        height: 500px;
+    }
+    .border .download_app_now {
+        font-size: 25px;
+        font-weight: 600;
+        padding-left: 60px;
+        padding-top: 20px;
+    } 
+    .border .white_frame::before {
+        content: "";
+        width: 465px;
+        height: 400px;
+        position: absolute;
+        z-index: -2;
+        top: -40px;
+        left: 40px;
+    }
+    .about_our_app {
+        margin-top: 150px;
+        text-align: center;
+    }
+    .about_our_app .first_lorem {
+        font-size: 16px;
+        font-weight: 400;
+        padding-top: 50px;
+        width: 550px;
+        line-height: 20px;
+        margin: 0 auto;
+    }
+    .about {
+        font-size: 32px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tel_about .phone_two {
+        width: 240px;
+        height: 460px;
+        margin-top: 80px;
+    }
+    .tel_about .creative_design {
+        font-size: 20px;
+        font-weight: 600; 
+    }
+    .tel_about .all_two {
+        border-radius: 10px;
+        width: 390px;
+        height: 110px;
+        margin-top: 80px;
+        padding: 25px;
+    }
+    .tel_about .second_lorem {
+        font-size: 13px;
+        width: 250px;
+    }
+    #third_section_head h4 {
+        font-size: 20px;
+    }
+    .field.center h5 {
+        font-size: 20px;
+    }
+    .field.center h5 {
+        font-size: 20px;
+    }
+    #fields_center h5 {
+        font-size: 20px;
+    }
+    .checkout_lorem span {
+        width: 60px;
+    }
+    .checkout_lorem p {
+        line-height: 25px;
+        width: 450px;
+    }
+    .one_img {
+        width: 158px;
+        height: 354px;
+    }
+    .two_img{
+        width: 164px;
+        height: 354px;
+    }
+    .three_img{
+        width: 227px;
+        height: 444px;
+    }
+    .four_img{
+        width: 163px;
+        height: 354px;
+    }
+    .five_img{
+        width: 163px;
+        height: 354px;
+        border-radius: 30px;
+    }
+    .down p {
+        width: 400px;
+        line-height: 25px;
+    }
+    .play_store img {
+        margin-top: 20px;
+    }
+    .two_images {
+        width: 370px;
+        height: 510px;
+    } 
+    .kub_three {
+        margin-top: 40px;
+        width: 100px;
+        height: 106px;
+        border-radius: 10px;
+    }
+    .save {
+        text-align: center;
+        padding-top: 15px;
+    }
+    .kub_three .reqem {
+        font-size: 20px;
+        padding-top: 12px;
+    }
+    .kub_three .download_kub {
+        font-size: 12px;
+        padding-top: 12px;
+    }
+    #fields_center {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .table_computer {
+        width: 570px;
+        height: 320px;
+        margin-top: 70px;
+        border-radius: 10px;
+    }
+    .three_secim {
+        width: 215px;
+        height: 455px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+    .three_secim .carla_press {
+        font-size: 20px;
+    }
+    .three_secim .app_developers {
+        font-size: 16px;
+    }
+    .three_secim .social {
+        width: 200px;
+        padding-top: 15px;
+    }
+    .three_secim .girl_photo {
+        border-radius: 50%;
+        margin-left: 85px;
+        margin-top: 50px;
+    }
+    .lorem_eleven {
+        width: 200px;
+        height: 61px;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0 auto;
+        /* padding-top: 15px; */
+    }
+    .carla_app_lorem {
+        text-align: center;
+        padding-top: 10px;
+    }
+    .our_recent_lorem {
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .snap_insta_pho {
+        width: 215px;
+        height: 635px;
+        margin-top: 70px;
+        border-radius: 10px 10px 0px 0px;
+        background-color: rgb(239, 245, 239);
+    }
+    .snap_insta .snapchat {
+        width: 215px;
+    }
+}
+@media screen and (max-width:768px) {
+    #header_bottom ul {
+        display: none;
+    }
+    .white_frame {
+        width: 36px;
+        height: 318px;
+        margin-top: 200px;
+        position: relative;
+    }
+    .great {
+        font-size: 32px;
+        font-weight: 700;
+        padding-left: 60px;
+        padding-top: 50px;
+    }
 }
